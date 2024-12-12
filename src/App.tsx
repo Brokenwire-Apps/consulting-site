@@ -2,6 +2,7 @@ import './App.scss'
 import { Routes, Route } from 'react-router-dom'
 import { Header } from './sections/header.section'
 import { Home } from './pages/home.page'
+import { Footer } from './sections/footer.section'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
             <Route path="/" element={<Home />} />
           </Routes>
         </div>
+        <Footer />
       </div>
     </>
   )

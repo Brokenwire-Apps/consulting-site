@@ -1,0 +1,48 @@
+footer {
+    background-color: rgba($brand-blue, 0.7);
+    color: #fff;
+    padding: 10px;
+
+    .footer-contain {
+        display: flex;
+        max-width: 1400px;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        text-align: center;
+
+        .brand {
+            font-size: .75rem;
+
+            img {
+                display: block;
+                width: 100%;
+                max-width: 200px;
+                margin: 0 0 10px;
+            }
+
+            svg {
+                display: inline-block;
+
+            }
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: end;
+            width: 50%;
+            margin: 0 auto;
+
+            .footer-link {
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    line-height: 1.75rem;
+                    margin: 0 2rem;
+                }
+            }
+        }
+    }
+}

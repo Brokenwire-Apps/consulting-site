@@ -11,6 +11,8 @@ $container-max-widths: (
 $brand-orange:#BC2C1A;
 $brand-blue:#18273A;
 $brand-light-blue:#748CAB;
+$brand-grey:#eaf0f7;
+$brand-dark-grey:#333;
 
 // Responsive breakpoints
 $breakpoint-sm: map.get($container-max-widths, "sm");

@@ -1,0 +1,27 @@
+.story {
+    background-color: $brand-grey;
+    
+    .story-contain {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 50px 20px;
+        align-items: center;
+        
+        .story-text {
+            
+            h2 {
+                color: $brand-dark-grey;
+                font-size: 2.5rem;
+                font-weight: 700;
+                margin: 0 0 1rem;
+            }
+            
+            p {
+                color: $brand-dark-grey;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                margin: 0 0 2rem;
+            }
+        }
+    }
+}
