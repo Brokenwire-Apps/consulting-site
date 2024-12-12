@@ -1,7 +1,20 @@
+// Containers
+$container-max-widths: (
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px,
+  "xxl": 1400px
+);
+
 // Colors
+$brand-orange:#BC2C1A;
+$brand-blue:#18273A;
+$brand-light-blue:#748CAB;
 
 // Responsive breakpoints
-$breakpoint-sm: 576px;
-$breakpoint-md: 768px;
-$breakpoint-lg: 992px;
-$breakpoint-xl: 1200px;
+$breakpoint-sm: map.get($container-max-widths, "sm");
+$breakpoint-md: map.get($container-max-widths, "md");
+$breakpoint-lg: map.get($container-max-widths, "lg");
+$breakpoint-xl: map.get($container-max-widths, "xl");
+$breakpoint-xxl: map.get($container-max-widths, "xxl");

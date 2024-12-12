@@ -1,18 +1,19 @@
 import './App.scss'
-import { Nav } from './components/nav.component'
-import Logo from './assets/logo-1c-lt.svg'
+import { Routes, Route } from 'react-router-dom'
+import { Header } from './sections/header.section'
+import { Home } from './pages/home.page'
 
 function App() {
 
   return (
     <>
       <div>
-        <header>
-          <div className="brand">
-            <img src={Logo} alt="Logo" />
-          </div>
-          <Nav />
-        </header>
+        <Header />
+        <div className="main">
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </div>
       </div>
     </>
   )

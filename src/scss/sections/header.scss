@@ -1,0 +1,25 @@
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba($brand-blue, 0.7);
+    
+    .header-contain {
+        display: flex;
+        max-width: 1400px;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+
+        .brand {
+            img {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    }
+
+}

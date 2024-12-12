@@ -1,0 +1,12 @@
+.btn {
+    background-color: $brand-blue;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: color.change($brand-blue, $lightness: 30%);
+    }
+}

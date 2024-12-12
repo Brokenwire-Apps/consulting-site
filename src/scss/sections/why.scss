@@ -1,0 +1,63 @@
+.why {
+    padding: 100px 0;
+    text-align: center;
+    
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+    
+    p {
+        font-size: 1.6rem;
+        margin-bottom: 40px;
+    }
+    
+    .why-contain {
+        display: flex;
+        justify-content: center;
+
+        .why-item {
+            text-align: center;
+            background-color: $brand-blue;
+            margin: 0 1rem;
+            padding: 1rem;
+            border: 1px solid color.change($brand-blue, $lightness: 10%);;
+            border-radius: 1rem;
+            
+            img {
+                width: 100px;
+                margin-right: 20px;
+            }
+            
+            h2 {
+                text-align: center;
+                font-size: 1.4rem;
+                
+                svg {
+                    display: block;
+                    width: 40px;
+                    height: 40px;
+                    fill: #fff;
+                    margin: 0 auto 10px;
+                }
+            }
+            
+            p {
+                font-size: 1rem;
+            }
+
+            @media (max-width: $breakpoint-md) {
+                margin: 0 0 1rem;
+            }
+        }
+        
+        @media (max-width: $breakpoint-md) {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    @media (max-width: $breakpoint-md) {
+        padding: 3rem;
+    }
+}
