@@ -5,6 +5,7 @@
 #### Tech Stack
 - React
 - Typescript
+- SCSS
 - Vite
 
 #### Infrastructure Stack
